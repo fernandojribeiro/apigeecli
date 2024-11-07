@@ -1,0 +1,38 @@
+{
+  "name": "apigeecli-apigee_client",
+  "version": "1.0.0",
+  "description": "Apigee Client for release management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "directories": {
+    "directories.bin": "./bin"
+  },
+  "contributors": [
+    {
+      "name": "Bruno Selistre (bselistre)"
+    },
+    {
+      "name": "Fernando Ribeiro (fernandojribeiro)"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "colors": "^1.4.0",
+    "crypto": "1.0.1",
+    "decompress": "^4.2.1",
+    "diff": "^5.1.0",
+    "dir-compare": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.0.0",
+    "googleapis": "^88.2.0",
+    "hasbin": "^1.2.3",
+    "inquirer": "^8.2.4",
+    "locked-sync": "^1.0.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.5"
+  }
+}
